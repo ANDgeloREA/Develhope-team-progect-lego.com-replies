@@ -1,0 +1,21 @@
+:root {
+    --color-text: #2c2c2c;
+    --background-bgcolor: #fff;
+}
+
+body {
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Cera Pro, sans-serif;
+    line-height: 1.5;
+    color: #2c2c2c;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
