@@ -34,7 +34,6 @@ footer > div{
     margin-bottom: 10px;
     padding: 10px;
     font-size: 14px;
-    font-family: "Cera Pro", sans-serif;
 }
 .logoAndChangeRegion .region button:hover{
     cursor: pointer;
@@ -59,7 +58,7 @@ footer > div{
 .logoAndChangeRegion span{
     font-size: 15px;
     font-weight: 400;
-    font-family: "Cera Pro", sans-serif;
+    
 }
 .linkFooter{
     display: flex;
@@ -74,7 +73,7 @@ footer > div{
 }
 .linkFooter ul li a{
     font-size: 15px;
-    font-family: "Cera Pro", sans-serif;
+    
 }
 .linkFooter ul li a:hover{
     text-decoration: underline;
@@ -116,9 +115,7 @@ footer > div{
     flex-direction: row;
 }
 
-.textEmail{
-    font-family: "Cera pro",sans-serif;
-}
+
 .inputEmail{
     margin-top: 20px ;
 }
@@ -149,7 +146,7 @@ footer > div{
 }
 .seguici{
     font-size: 18px;
-    font-family: "Cera pro",sans-serif;
+   
 }
 .socialCircle  {
     padding-top: 20px;
