@@ -67,7 +67,12 @@ footer > div{
 .logoAndChangeRegion ul li{
     padding: 6px 0px;
 }
-
+.ancorCataloghiLego:hover{
+    text-decoration: underline;
+}
+.ancorTrovaUnNegozio:hover{
+    text-decoration: underline;
+}
 .logoAndChangeRegion span{
     font-size: 15px;
     font-weight: 400;
@@ -87,6 +92,9 @@ footer > div{
 .linkFooter ul li a{
     font-size: 15px;
     font-family: "Cera Pro", sans-serif;
+}
+.linkFooter ul li a:hover{
+    text-decoration: underline;
 }
 .chiSiamo{
     margin-right: 50px;
@@ -179,6 +187,9 @@ footer > div{
 .policyLink li a{
     padding-right: 35px;
     font-size: 12px;
+}
+.policyLink li a:hover{
+    text-decoration: underline;
 }
 .disclaimer{
     font-size: 12px;
