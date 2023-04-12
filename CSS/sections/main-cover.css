@@ -1,0 +1,92 @@
+.first-section-main-cover {
+    width: 100%;
+}
+
+.first-section-main-cover .fsmc-wrapper {
+    width: 100%;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+/*
+MAIN COVER - Img
+*/
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-img-wrapper {
+    width: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-grow: 1;
+}
+
+/*
+MAIN COVER - Text
+*/
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container {
+    text-align: end;
+    color: white;
+}
+
+/*FIX: button*/
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button .button-arrow-right {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+/*
+SECTION PRINCIPALE - linkbar
+*/
+
+.first-section-linkbar {
+    width: 100%;
+}
+
+.first-section-linkbar .fslb-linkbar-wrapper {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container .fslb-link-wrapper {
+    list-style: none;
+    text-align: center;
+}
+
