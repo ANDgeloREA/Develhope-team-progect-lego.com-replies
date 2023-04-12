@@ -1,7 +1,8 @@
 @import url("template/root.css");
 @import url("template/layout.css");
-@import url("sections/read-more.css");
 @import url("sections/");
 @import url("sections/main-cover.css");
 @import url("sections/new-arrivals.css");
+@import url("sections/section-fan-favorite.css");
+@import url("sections/read-more.css");
 @import url("components/");
