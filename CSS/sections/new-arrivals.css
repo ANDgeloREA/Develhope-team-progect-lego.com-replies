@@ -30,10 +30,17 @@
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container {
     width: 100%;
+    position: relative;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container .sna-card-img {
     width: 100%;
+}
+
+.card-logo {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container {
