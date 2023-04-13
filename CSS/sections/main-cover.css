@@ -1,5 +1,6 @@
 .first-section-main-cover {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .first-section-main-cover .fsmc-wrapper {
@@ -11,9 +12,8 @@
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container {
     background-color: black;
-    width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 /*
@@ -21,10 +21,16 @@ MAIN COVER - Img
 */
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-img-wrapper {
-    width: fit-content;
-    padding-left: 100px;
-    padding-right: 100px;
-    flex-grow: 1;
+    padding-right: 50px;
+}
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-img-wrapper .fsmc-img-container {
+    width: auto;
+    height: 100%;
+}
+.fsmc-img-container-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*
@@ -33,15 +39,14 @@ MAIN COVER - Text
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
 }
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container {
-    text-align: end;
     color: white;
 }
 
