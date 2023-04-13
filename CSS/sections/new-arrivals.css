@@ -1,46 +1,47 @@
 .section-new-arrivals {
-    box-sizing: border-box;
+    margin: 20px;
 }
 
 .section-new-arrivals .sna-wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 100rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .section-new-arrivals .sna-wrapper .sna-title-container .sna-title {
-    max-width: 100rem;
-    margin-left: auto;
-    margin-right: auto;
+    box-sizing: content-box;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper {
     display: flex;
     gap: 20px;
-    max-width: 100rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container {
-    width: 500px;
+    box-sizing: content-box;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container {
-    width: 100%;
     position: relative;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container .sna-card-img {
+    margin: 0;
+    padding: 0;
     width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.card-logo {
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container .sna-card-logo {
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+.sna-card-logo-img {
+    margin: 0;
+    padding: 0;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container {
@@ -51,6 +52,9 @@
     text-align: center;
 }
 
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container .sna-card-text-button .sna-card-tb-span {
+    font-weight: bold;
+}
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container:hover .sna-card-text-container .sna-card-text-button .sna-card-tb-span {
     text-decoration: underline;
 }
