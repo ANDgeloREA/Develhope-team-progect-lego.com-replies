@@ -8,7 +8,6 @@
   width: 100%;
   max-width: 100rem;
   margin: 0px auto;
-  padding: 0px 1.875rem;
   height: 55px;
 }
 
@@ -19,6 +18,7 @@
   align-items: center;
   margin-top: 0.9375rem;
   margin-bottom: 0.9375rem;
+  padding-left: 1.5rem;
 }
 
 .nav-top .carosello-wrap {
@@ -101,7 +101,7 @@
   line-height: 1.5625rem;
   text-transform: uppercase;
   padding: 0px 0.625rem;
-  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px
+  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px;
 }
 
 .nav-top .area-giochi-container .area-giochi-button span {
@@ -118,6 +118,7 @@
   align-items: center;
   -webkit-box-pack: end;
   justify-content: flex-end;
+  padding-right: 1.5rem;
 }
 
 .nav-top .access-method .accedi {
@@ -164,7 +165,6 @@
 .nav-bottom {
   height: 4.6875rem;
   margin: 0px auto;
-  padding: 0px 1.875rem;
   width: 100%;
   max-width: 100rem;
   display: flex;
@@ -177,6 +177,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 1.5rem;
 }
 
 .nav-bottom .nav-bot-left .nav-bot-logo {
@@ -211,17 +212,15 @@
 .nav-bottom .nav-bot-left .nav-bot-ul button:hover{
   text-decoration: underline 2px solid black;
 }
-.nav-bottom .nav-bot-right{
-  display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-left: auto;
-}
+
 .nav-bottom .nav-bot-right{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  -webkit-box-align: center;
 }
 
 .nav-bottom .nav-bot-right .nav-bot-searchbar button{
