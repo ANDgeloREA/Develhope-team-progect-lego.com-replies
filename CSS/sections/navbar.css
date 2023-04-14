@@ -6,7 +6,6 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   width: 100%;
-  max-width: 100rem;
   margin: 0px auto;
   height: 55px;
 }
@@ -166,7 +165,6 @@
   height: 4.6875rem;
   margin: 0px auto;
   width: 100%;
-  max-width: 100rem;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
