@@ -1,0 +1,58 @@
+.section-new-arrivals {
+    box-sizing: border-box;
+}
+
+.section-new-arrivals .sna-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-new-arrivals .sna-wrapper .sna-title-container .sna-title {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container {
+    width: 500px;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container {
+    width: 100%;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container .sna-card-img {
+    width: 100%;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container:hover .sna-card-text-container .sna-card-text-button .sna-card-tb-span {
+    text-decoration: underline;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container .sna-card-text-button .arrow-right {
+    border: solid var(--text-color);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
