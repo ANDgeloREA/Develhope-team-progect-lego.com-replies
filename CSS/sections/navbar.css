@@ -1,0 +1,261 @@
+.nav-top {
+  position: relative;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px auto;
+  height: 55px;
+}
+
+.nav-top .area-giochi-container {
+  flex: 0 1 33.3333%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  padding-left: 1.5rem;
+}
+
+.nav-top .carosello-wrap {
+  display: flex;
+  max-width: 34.68rem;
+  justify-content: space-evenly;
+}
+
+.nav-top .carosello-wrap .text-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.nav-top .carosello-wrap .text-wrap .not-translate {
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  transform: translateX(0%);
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.nav-top .carosello-wrap .text-wrap .full-translate {
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.nav-top .carosello-wrap a {
+  color: #006db7;
+  text-decoration: none;
+  font-size: 9pt;
+  margin-left: 0.75rem;
+}
+
+.nav-top .carosello-wrap a:hover {
+  text-decoration: underline;
+}
+
+.nav-top .carosello-wrap span {
+  font-size: 9pt;
+  font-family: var(--font);
+}
+
+.nav-top .carosello-wrap button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav-top .carosello-wrap button svg {
+  height: 18px;
+}
+
+.nav-top .area-giochi-container .area-giochi-button {
+  max-height: 25px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 3px;
+  border: none;
+  background: rgb(171, 217, 255);
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+  text-transform: uppercase;
+  padding: 0px 0.625rem;
+  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px;
+}
+
+.nav-top .area-giochi-container .area-giochi-button span {
+  font-weight: 790;
+  padding-left: 0.5rem;
+  color: var(--text-color);
+  font-size: smaller;
+}
+
+.nav-top .access-method {
+  flex: 0 1 33.3333%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+
+.nav-top .access-method .accedi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-top .area-giochi-button:hover {
+  background-color: white;
+}
+
+.nav-top .access-method .utility-barstyles {
+  margin: 0px 1.25rem;
+  width: 0.0625rem;
+  height: 1.25rem;
+  background: rgb(117, 117, 117);
+}
+
+.nav-top .access-method .vip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-top .access-method a {
+  font-size: 9pt;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+.h-reverse {
+  transform: rotate(180deg);
+
+}
+
+.resize-arrow {
+  height: 16px;
+  width: 15px;
+}
+
+.nav-bottom {
+  height: 4.6875rem;
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #ffcf00;
+}
+
+.nav-bottom .nav-bot-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.nav-bottom .nav-bot-left .nav-bot-logo {
+  padding-top: 0.5rem;
+}
+
+.nav-bottom .nav-bot-left .nav-bot-logo a img {
+  width: 3.4375rem;
+  height: 3.4375rem;
+
+}
+
+.nav-bottom .nav-bot-left .nav-bot-ul {
+  display: flex;
+  text-decoration: none;
+  height: 3.4375rem;
+  -webkit-box-align: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+  padding-left: 3rem;
+}
+.nav-bottom .nav-bot-left .nav-bot-ul button{
+  background-color: transparent;
+  border: 0;
+  color:black;
+  font-family: Cera Pro,sans-serif;
+  font-size: 11pt;
+  font-weight: 545;
+  cursor: pointer;
+}
+.nav-bottom .nav-bot-left .nav-bot-ul button:hover{
+  text-decoration: underline 2px solid black;
+}
+
+.nav-bottom .nav-bot-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  -webkit-box-align: center;
+}
+
+.nav-bottom .nav-bot-right .nav-bot-searchbar button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.nav-bottom .nav-bot-right .heart-button{
+  display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    margin-left:1rem ;
+    color: rgb(0, 0, 0);
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+.nav-bottom .nav-bot-right .shop-link{
+  margin-right: 1.25rem;
+  display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+    gap: 0.3rem;
+}
