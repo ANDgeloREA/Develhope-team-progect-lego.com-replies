@@ -1,6 +1,7 @@
 @import url("template/root.css");
 @import url("template/layout.css");
 @import url("sections/");
+@import url("sections/advertising-cover.css");
 @import url("sections/navbar.css");
 @import url("sections/main-cover.css");
 @import url("sections/sections-consigliati.css");
