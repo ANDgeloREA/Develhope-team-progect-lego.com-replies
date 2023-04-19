@@ -1,0 +1,65 @@
+.section-read-more {
+    margin: 20px;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-read-more .srm-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-read-more .srm-wrapper .srm-title-container .srm-title {
+    box-sizing: content-box;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section-read-more .srm-wrapper .sna-card-wrapper .srm-card-container .srm-card-img-container {
+    position: relative;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container .srm-card-img-container .srm-card-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container .srm-card-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container .srm-card-text-container .srm-card-text-button .srm-card-tb-span {
+    font-weight: bold;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container:hover .srm-card-text-container .srm-card-text-button .srm-card-tb-span {
+    text-decoration: underline;
+}
+
+.section-read-more .srm-wrapper .srm-card-wrapper .srm-card-container .srm-card-text-container .srm-card-text-button .arrow-right {
+    border: solid var(--text-color);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
