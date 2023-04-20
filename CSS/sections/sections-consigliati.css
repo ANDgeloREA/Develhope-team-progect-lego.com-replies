@@ -15,7 +15,7 @@
 .cpt-card-container {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll;   
+    overflow-x: scroll;  
 }
 
 .cpt-card-container::-webkit-scrollbar {
@@ -39,7 +39,7 @@
     display: block;
     margin-left: 0px;
     padding-left: 0px;
-    padding-right: 2.1875rem;
+    padding-right: 1.5rem;
     width: 300px;
     height: 500px;
 }
@@ -53,8 +53,9 @@
 }
 
 .cpt-card-image {
+    position: absolute;
     width: 90%;
-    height: 90%;
+    height: 70%;
     margin-left: 0.625rem;
 }
 
@@ -70,6 +71,8 @@
 
 .cpt-novità {
     display: inline-block;
+    position: absolute;
+    bottom: 10px;
     margin: 0px;
     padding: 0.19rem 0.625rem;
     background: rgb(255, 207, 0);
@@ -125,7 +128,7 @@
 .cpt-details-star > .cpt-star {
     width: 15px;
     height: 15px;
-    margin-bottom: 0.3rem;
+    
 }
 
 .cpt-star {
@@ -138,3 +141,49 @@
 .cpt-other-details {
     align-items: end;
 }
+
+.wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+ .carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  .prev,
+  .next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  .next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
