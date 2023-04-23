@@ -44,7 +44,7 @@ ADVERTISING COVER - Text
 .section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper {
     position: absolute;
     max-width: 30%;
-    bottom: 10%;
+    bottom: 20%;
     right: 10%;
 }
 
@@ -59,7 +59,25 @@ ADVERTISING COVER - Text
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 50px;
+}
+
+.section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container .sac-t-button-container .sac-t-button {
+    max-width: 100rem;
+    padding: 10px;
+    margin-left: auto;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    background: none;
+    color: var(--text-color);
+    cursor: pointer;
+    text-align: center;
+}
+
+.section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container .sac-t-button-container .sac-t-button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: var(--text-color);
+    box-shadow: 0 0 25px var(--text-color), 0 0 50px var(--text-color), 0 0 75px var(--text-color), 0 0 100px var(--text-color);
 }
 
 .section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container .sac-t-button-container .sac-t-button .button-arrow-right {

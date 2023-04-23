@@ -56,7 +56,25 @@ MAIN COVER - Text
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 50px;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button {
+    max-width: 100rem;
+    padding: 10px;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button:hover {
+    color: var(--text-color);
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0 0 25px white, 0 0 50px white, 0 0 75px white, 0 0 100px white;
 }
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button .button-arrow-right {
