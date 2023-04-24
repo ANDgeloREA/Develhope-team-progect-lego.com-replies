@@ -107,10 +107,12 @@ SECTION PRINCIPALE - linkbar
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {
+    padding:0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container .fslb-link-wrapper {
