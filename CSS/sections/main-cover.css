@@ -68,6 +68,7 @@ MAIN COVER - Text
     color: white;
     cursor: pointer;
     text-align: center;
+    font-weight: bold;
 }
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button:hover {
@@ -86,6 +87,9 @@ MAIN COVER - Text
     -webkit-transform: rotate(-45deg);
 }
 
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button:hover .button-arrow-right {
+    border-color: solid var(--text-color);
+}
 
 /*
 SECTION PRINCIPALE - linkbar
@@ -103,10 +107,12 @@ SECTION PRINCIPALE - linkbar
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {
+    padding:0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container .fslb-link-wrapper {
