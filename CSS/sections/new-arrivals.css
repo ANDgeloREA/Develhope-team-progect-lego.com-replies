@@ -1,5 +1,5 @@
 .section-new-arrivals {
-    margin: 20px;
+    margin: 50px;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +45,9 @@
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container .sna-card-logo .sna-card-logo-img {
     margin: 0;
     padding: 0;
+    height: 15%;
+    max-height: 3rem;
+    min-height: 1.5rem;
 }
 
 .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-text-container {

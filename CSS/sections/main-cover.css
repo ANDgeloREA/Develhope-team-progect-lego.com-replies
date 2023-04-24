@@ -1,6 +1,6 @@
 .first-section-main-cover {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .first-section-main-cover .fsmc-wrapper {
@@ -12,6 +12,7 @@
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container {
     background-color: black;
+    background-image: url(/assets/first-section/main-cover/sfondo-falcon.png);
     display: flex;
     gap: 30px;
 }
@@ -30,7 +31,7 @@ MAIN COVER - Img
 .fsmc-img-container-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /*
@@ -50,13 +51,30 @@ MAIN COVER - Text
     color: white;
 }
 
-/*FIX: button*/
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 50px;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button {
+    max-width: 100rem;
+    padding: 10px;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button:hover {
+    color: var(--text-color);
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0 0 25px white, 0 0 50px white, 0 0 75px white, 0 0 100px white;
 }
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container .fsmc-t-button .button-arrow-right {
@@ -81,6 +99,7 @@ SECTION PRINCIPALE - linkbar
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {
