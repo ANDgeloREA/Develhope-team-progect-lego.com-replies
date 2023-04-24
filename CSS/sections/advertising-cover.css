@@ -53,6 +53,12 @@ ADVERTISING COVER - Text
     text-align: right;
 }
 
+.logo-LOTR {
+    height: 15%;
+    max-height: 3rem;
+    min-height: 1.5rem;
+}
+
 /*FIX: button*/
 
 .section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container .sac-t-button-container {
