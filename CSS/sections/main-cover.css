@@ -1,6 +1,6 @@
 .first-section-main-cover {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .first-section-main-cover .fsmc-wrapper {
@@ -50,7 +50,6 @@ MAIN COVER - Text
     color: white;
 }
 
-/*FIX: button*/
 
 .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper .fsmc-text-container .fsmc-t-button-container {
     display: flex;
@@ -99,6 +98,7 @@ SECTION PRINCIPALE - linkbar
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {

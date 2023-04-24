@@ -1,8 +1,9 @@
 .section-read-more {
-    margin: 20px;
+    margin: 50px;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .section-read-more .srm-wrapper {
