@@ -3,14 +3,13 @@ COVER 1
 */
 
 .section-advertising-cover {
-    margin: 50px;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-advertising-cover .sac-wrapper {
-    padding: 0;
+    padding: 30px 0;
 }
 
 .section-advertising-cover .sac-wrapper .sac-container {
@@ -106,14 +105,13 @@ COVER 2
 */
 
 .section-advertising-cover2 {
-    margin: 50px;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-advertising-cover2 .sac-wrapper {
-    padding: 0;
+    padding: 30px 0;
 }
 
 .section-advertising-cover2 .sac-wrapper .sac-container {

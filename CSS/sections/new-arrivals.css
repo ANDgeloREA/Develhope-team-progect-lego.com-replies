@@ -1,5 +1,4 @@
 .section-new-arrivals {
-    margin: 50px;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
@@ -8,6 +7,7 @@
 .section-new-arrivals .sna-wrapper {
     display: flex;
     flex-direction: column;
+    padding: 30px 90px 30px 90px;
 }
 
 .section-new-arrivals .sna-wrapper .sna-title-container .sna-title {

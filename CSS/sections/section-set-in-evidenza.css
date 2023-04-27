@@ -1,5 +1,5 @@
 .sie-main-container {
-    padding: 1.875rem 3.75rem 3.75rem;
+    padding: 30px 90px 30px 90px;
     max-width: 100rem;
     margin: auto;
     
@@ -14,7 +14,7 @@
 .sie-card-container {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll;  
+    overflow-x: scroll;
 }
 
 .sie-card-container::-webkit-scrollbar {

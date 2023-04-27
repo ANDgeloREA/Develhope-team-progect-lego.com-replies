@@ -1,5 +1,4 @@
 .section-fan-favourites {
-  margin: 50px;
   max-width: 100rem;
   margin-left: auto;
   margin-right: auto;
@@ -8,6 +7,7 @@
 .sff-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 30px 90px 30px 90px;
 }
 
 .sff-title {

@@ -4,17 +4,13 @@
 }
 
 footer {
-  color: white;
-  max-width: 100rem;
-  margin-left: auto;
-  margin-right: auto;
+ padding: 30px 60px 60px;
+ color: white;
+ max-width: 100rem;
+ margin-left: auto;
+ margin-right: auto;
 }
 
-footer > div {
-  padding: 40px 20px 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /*
 SOPRA
@@ -23,19 +19,22 @@ SOPRA
 .footerUp {
   display: flex;
   font-size: 15px;
+  gap: 2rem;
 
 }
 
 .logoAndChangeRegion {
-  margin: 0px 50px 0px 0px;
   flex-grow: 1;
+  width: 25%;
+
 }
 .logoAndChangeRegion .logo {
   margin: 0px 0px 10px;
 }
 
 .logoAndChangeRegion .logo img {
-  width: 60%;
+  width: 97px;
+  height: 97px;
 }
 .logoAndChangeRegion .region button {
   background-color: rgb(19, 17, 36);
@@ -71,7 +70,9 @@ SOPRA
 }
 .linkFooter {
   display: flex;
-  padding: 10px 0px 0px;
+  
+  gap: 2rem;
+  
 }
 .linkFooter ul {
   list-style: none;
@@ -87,31 +88,32 @@ SOPRA
   text-decoration: underline;
 }
 .chiSiamo {
-  margin-right: 50px;
-  width: 18%;
-  margin-left: 80px;
+  
+  width: 25%;
 }
 .chiSiamo h4 {
   padding-bottom: 20px;
   font-size: 16px;
 }
 .supporto {
-  width: 26%;
+  
+  width: 25%;
 }
 .supporto h4 {
   padding-bottom: 20px;
   font-size: 16px;
 }
 .attrazioni {
-  width: 15%;
-  padding-right: 30px;
+  
+  width: 25%;
 }
 .attrazioni h4 {
   padding-bottom: 20px;
   font-size: 16px;
 }
 .altreInformazioni {
-  padding-left: 60px;
+  
+  width: 25%;
 }
 .altreInformazioni h4 {
   padding-bottom: 20px;
