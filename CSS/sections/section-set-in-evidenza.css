@@ -1,8 +1,11 @@
+.section-set-in-evidenza {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .sie-main-container {
     padding: 30px 90px 30px 90px;
-    max-width: 100rem;
-    margin: auto;
-    
 }
 
 .sie-title > h2 {

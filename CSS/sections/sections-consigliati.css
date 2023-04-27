@@ -1,8 +1,11 @@
-.cpt-main-container {
-    padding: 1.875rem 3.75rem 3.75rem;
+.section-consigliati-per-te {
     max-width: 100rem;
-    margin: auto;
-    
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.cpt-main-container {
+    padding: 30px 60px 60px;
 }
 
 
