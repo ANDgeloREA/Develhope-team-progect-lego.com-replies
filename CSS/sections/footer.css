@@ -1,26 +1,39 @@
-footer {
+.footer-container {
   width: 100%;
   background-color: rgb(32, 29, 72);
+}
+
+footer {
   color: white;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer > div {
   padding: 40px 20px 20px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*
+SOPRA
+*/
 
 .footerUp {
   display: flex;
   font-size: 15px;
+
 }
 
 .logoAndChangeRegion {
   margin: 0px 50px 0px 0px;
+  flex-grow: 1;
 }
 .logoAndChangeRegion .logo {
   margin: 0px 0px 10px;
 }
+
 .logoAndChangeRegion .logo img {
   width: 60%;
 }
@@ -104,6 +117,11 @@ footer > div {
   padding-bottom: 20px;
   font-size: 16px;
 }
+
+/*
+CENTRO
+*/
+
 .footerCenter {
   display: flex;
   justify-content: space-between;
@@ -134,9 +152,7 @@ footer > div {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.social {
-  width: 17%;
-}
+
 .seguici {
   font-size: 18px;
 }
@@ -148,6 +164,11 @@ footer > div {
   width: 40px;
   padding-right: 15px;
 }
+
+/*
+SOTTO
+*/
+
 .footerDown {
   margin-top: 10px;
 }
@@ -167,6 +188,12 @@ footer > div {
   font-size: 12px;
   padding-top: 10px;
 }
+
+
+/*
+LENGUAGE CHOISE
+*/
+
 .changeLanguage {
   display: none;
   position: fixed;
@@ -177,6 +204,7 @@ footer > div {
   z-index: 1;
   margin-left: 0px;
 }
+
 .closeModal {
   display: flex;
   align-items: end;
