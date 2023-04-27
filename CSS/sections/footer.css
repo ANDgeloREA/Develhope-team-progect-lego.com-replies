@@ -6,7 +6,7 @@
 footer {
  padding: 30px 60px 60px;
  color: white;
- max-width: 100rem;
+ max-width: 90rem;
  margin-left: auto;
  margin-right: auto;
 }
@@ -24,9 +24,8 @@ SOPRA
 }
 
 .logoAndChangeRegion {
-  flex-grow: 1;
+  
   width: 25%;
-
 }
 .logoAndChangeRegion .logo {
   margin: 0px 0px 10px;
@@ -70,9 +69,7 @@ SOPRA
 }
 .linkFooter {
   display: flex;
-  
   gap: 2rem;
-  
 }
 .linkFooter ul {
   list-style: none;
@@ -88,7 +85,6 @@ SOPRA
   text-decoration: underline;
 }
 .chiSiamo {
-  
   width: 25%;
 }
 .chiSiamo h4 {
@@ -96,7 +92,6 @@ SOPRA
   font-size: 16px;
 }
 .supporto {
-  
   width: 25%;
 }
 .supporto h4 {
@@ -104,7 +99,6 @@ SOPRA
   font-size: 16px;
 }
 .attrazioni {
-  
   width: 25%;
 }
 .attrazioni h4 {
@@ -112,7 +106,6 @@ SOPRA
   font-size: 16px;
 }
 .altreInformazioni {
-  
   width: 25%;
 }
 .altreInformazioni h4 {
@@ -200,27 +193,26 @@ LENGUAGE CHOISE
   display: none;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: var(--bg-color);
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
-  margin-left: 0px;
 }
 
 .closeModal {
   display: flex;
-  align-items: end;
-  justify-content: end;
-  color: inherit;
-  width: 96%;
-  height: 1.125rem;
-  position: absolute;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: var(--text-color);
+  width: 100%;
 }
 .closeModal button {
   background: transparent;
   width: 57px;
   height: 57px;
   border: 0px;
+  color: var(--text-color);
 }
 .closeModal button:hover {
   cursor: pointer;
@@ -228,13 +220,17 @@ LENGUAGE CHOISE
 .closeModal button i {
   font-size: 20px;
   font-weight: bolder;
+  color: black;
 }
 
 .globalLanguage img {
   display: block;
-  padding-left: 910px;
   width: 60px;
   height: 60px;
+  margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+    margin-left: auto;
 }
 .globalLanguage h2 {
   color: black;

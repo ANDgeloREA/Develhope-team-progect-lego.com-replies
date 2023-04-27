@@ -164,6 +164,11 @@
   width: 15px;
 }
 
+.nav-bottom-wrapper {
+  width: 100%;
+  background-color: #ffcf00;
+}
+
 .nav-bottom {
   height: 4.6875rem;
   margin: 0px auto;
@@ -171,7 +176,6 @@
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #ffcf00;
   max-width: 100rem;
   margin-left: auto;
   margin-right: auto;
