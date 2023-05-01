@@ -223,22 +223,29 @@ LENGUAGE CHOISE
   color: black;
 }
 
+.globalLanguage {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .globalLanguage img {
   display: block;
   width: 60px;
   height: 60px;
   margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 1.25rem;
-    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
 }
+
 .globalLanguage h2 {
-  color: black;
+  color: var(--text-color);
   display: flex;
   justify-content: center;
 }
 .globalLanguage p {
-  color: black;
+  color: var(--text-color);
   display: flex;
   justify-content: center;
   font-size: 17px;
@@ -247,9 +254,9 @@ LENGUAGE CHOISE
   display: flex;
   justify-content: center;
   background-color: rgb(255, 207, 0);
-  margin: 0 14%;
   height: 77px;
   list-style: none;
+  padding: 0;
 }
 .continentiNome {
   background: transparent;
@@ -257,7 +264,7 @@ LENGUAGE CHOISE
   display: flex;
   align-items: center;
   height: 100%;
-  color: rgb(44, 44, 44);
+  color: var(--text-color);
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -265,7 +272,7 @@ LENGUAGE CHOISE
   cursor: pointer;
 }
 .continentiNome:active {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid var(--text-color);
 }
 .continenti .adnLanguage {
   background: transparent;
@@ -293,13 +300,9 @@ LENGUAGE CHOISE
   display: none;
 }
 .adnLanguage {
-  left: 0px;
   flex-direction: column;
-  padding-top: 160px;
 }
 .adnLanguage li a {
-  padding-bottom: 23px;
-  padding-left: 10px;
   display: block;
   font-size: 14px;
   font-weight: bold;
