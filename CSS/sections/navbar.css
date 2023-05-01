@@ -186,6 +186,7 @@
   justify-content: center;
   align-items: center;
   padding-left: 1.5rem;
+  z-index: 1;
 }
 
 .nav-bottom .nav-bot-left .nav-bot-logo {
@@ -268,4 +269,46 @@
     font-size: 0.75rem;
     line-height: 1.1875rem;
     gap: 0.3rem;
+}
+
+ .menu-aside-container{
+  display: none;
+ 
+}
+
+.menu-aside-container-block{
+  display: flex;
+   background-color: white;
+   position: absolute;
+   left: 0;
+   height: 100vh;
+   width: 50%;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  
+}
+
+.menu-aside-container.nav-close-modal{
+  display: flex;
+ flex-direction:row-reverse;
+ flex-grow: 1;
+ justify-content: flex-end;
+ align-items: flex-end;
+ width: 100%;
+}
+
+.content-nav:not(.visible) {
+  display: none;
+}
+
+.content-nav.visible {
+  display: flex;
+  gap: 2rem;
+}
+
+.content-nav {
+  max-width: 85rem;
+  margin-left: auto;
+  margin-right: auto;
 }
