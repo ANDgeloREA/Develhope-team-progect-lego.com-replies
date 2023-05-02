@@ -269,3 +269,42 @@
     line-height: 1.1875rem;
     gap: 0.3rem;
 }
+
+.searchbar-onclick{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border:1px solid white;
+  border-radius: 20px 20px 20px 20px;
+  height: 4vh;
+  align-items: center;
+  left: 71%;  
+}
+.searchInput{
+ background-color: transparent;
+ font-size: 15px;
+ border: white;
+ height: 4vh;
+ 
+}
+
+.inputSearchbar{
+  height: 4vh;
+  border: 0px white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.closeSearch{
+  background-color: transparent;
+  font-size: 16px;
+  border: white;
+  height: 4vh;
+}
+
+.closeSearch:hover{
+  cursor: pointer;
+}
+
+.searchInput:hover{
+  cursor: pointer;
+}

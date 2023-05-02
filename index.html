@@ -148,82 +148,99 @@
         </div>
       </nav>
       <div class="nav-bottom-wrapper">
-      <nav class="nav-bottom">
-        <div class="nav-bot-left">
-          <div class="nav-bot-logo">
-            <a href=""><img src="./assets/lego-logo-76.png" alt="" /></a>
+        <nav class="nav-bottom">
+          <div class="nav-bot-left">
+            <div class="nav-bot-logo">
+              <a href=""><img src="./assets/lego-logo-76.png" alt="" /></a>
+            </div>
+            <div class="nav-bot-menu">
+              <ul class="nav-bot-ul">
+                <li>
+                  <button>ACQUISTA</button>
+                </li>
+                <li>
+                  <button>SCOPRI</button>
+                </li>
+                <li>
+                  <button>AIUTO</button>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="nav-bot-menu">
-            <ul class="nav-bot-ul">
-              <li>
-                <button>ACQUISTA</button>
-              </li>
-              <li>
-                <button>SCOPRI</button>
-              </li>
-              <li>
-                <button>AIUTO</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="nav-bot-right">
-          <div class="nav-bot-searchbar">
-            <button>
+          <div class="nav-bot-right">
+            <div class="searchbar-onclick">
+              <form class="searchbar-text">
+                <button class="searchInput">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input
+                  type="search"
+                  name="search"
+                  class="inputSearchbar"
+                  placeholder="Cerca..."
+                />
+
+                <button class="closeSearch">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </form>
+            </div>
+            <div class="nav-bot-searchbar">
+              <button class="btn-search">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  aria-hidden="true"
+                  class="Icon__StyledSVG-lm07h6-0 dHKzVM"
+                >
+                  <path
+                    d="M18 16.615c0 .375-.137.7-.412.973a1.331 1.331 0 01-.973.412 1.28 1.28 0 01-.973-.412l-3.71-3.7a7.41 7.41 0 01-4.317 1.342c-1.03 0-2.017-.2-2.958-.6a7.616 7.616 0 01-2.434-1.623 7.605 7.605 0 01-1.622-2.433A7.472 7.472 0 010 7.616c0-1.032.2-2.018.6-2.96a7.65 7.65 0 011.623-2.433A7.616 7.616 0 014.657.601 7.49 7.49 0 017.615 0c1.032 0 2.018.2 2.959.601.94.4 1.752.941 2.434 1.622a7.624 7.624 0 011.622 2.434c.4.941.601 1.927.601 2.959a7.403 7.403 0 01-1.342 4.316l3.71 3.71c.267.266.401.592.401.973m-5.539-9c0-1.334-.474-2.475-1.423-3.423C10.09 3.244 8.95 2.77 7.615 2.77c-1.333 0-2.475.474-3.423 1.422C3.243 5.14 2.77 6.28 2.77 7.616c0 1.334.474 2.475 1.423 3.423.948.949 2.09 1.422 3.423 1.422 1.335 0 2.475-.473 3.423-1.422.95-.948 1.423-2.09 1.423-3.423"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <button class="heart-button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="18"
+                width="20"
                 height="18"
-                viewBox="0 0 18 18"
+                viewBox="0 0 20 18"
                 aria-hidden="true"
-                class="Icon__StyledSVG-lm07h6-0 dHKzVM"
+                class="Icon__StyledSVG-lm07h6-0 cOQBZK"
               >
                 <path
-                  d="M18 16.615c0 .375-.137.7-.412.973a1.331 1.331 0 01-.973.412 1.28 1.28 0 01-.973-.412l-3.71-3.7a7.41 7.41 0 01-4.317 1.342c-1.03 0-2.017-.2-2.958-.6a7.616 7.616 0 01-2.434-1.623 7.605 7.605 0 01-1.622-2.433A7.472 7.472 0 010 7.616c0-1.032.2-2.018.6-2.96a7.65 7.65 0 011.623-2.433A7.616 7.616 0 014.657.601 7.49 7.49 0 017.615 0c1.032 0 2.018.2 2.959.601.94.4 1.752.941 2.434 1.622a7.624 7.624 0 011.622 2.434c.4.941.601 1.927.601 2.959a7.403 7.403 0 01-1.342 4.316l3.71 3.71c.267.266.401.592.401.973m-5.539-9c0-1.334-.474-2.475-1.423-3.423C10.09 3.244 8.95 2.77 7.615 2.77c-1.333 0-2.475.474-3.423 1.422C3.243 5.14 2.77 6.28 2.77 7.616c0 1.334.474 2.475 1.423 3.423.948.949 2.09 1.422 3.423 1.422 1.335 0 2.475-.473 3.423-1.422.95-.948 1.423-2.09 1.423-3.423"
+                  d="M16.84 8.417L10 15.204 3.16 8.417A3.67 3.67 0 012 5.739C2 3.677 3.71 2 5.815 2a3.82 3.82 0 012.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0114.186 2C16.289 2 18 3.677 18 5.739a3.673 3.673 0 01-1.16 2.678M9.986 18l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 001.78-4.126C20 2.569 17.398 0 14.187 0A5.829 5.829 0 0010 1.762 5.827 5.827 0 005.815 0C2.604 0 0 2.569 0 5.739a5.68 5.68 0 001.782 4.126"
                   fill="currentColor"
                   fill-rule="evenodd"
                 ></path>
               </svg>
             </button>
+            <a href="" class="shop-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="20"
+                viewBox="0 0 16 20"
+                aria-hidden="true"
+                class="Icon__StyledSVG-lm07h6-0 uCSzk MainBarstyles__ActionIcon-sc-1cg7sjw-16 kfAPxF"
+              >
+                <g fill="currentColor" fill-rule="evenodd">
+                  <path
+                    d="M4 3.512v5.804c0 .377.349.684.779.684.43 0 .779-.307.779-.684V3.512C5.558 2.33 6.653 1.368 8 1.368c1.347 0 2.442.962 2.442 2.144v5.804c0 .377.35.684.78.684.43 0 .778-.307.778-.684V3.512C12 1.575 10.206 0 8 0S4 1.575 4 3.512z"
+                  ></path>
+                  <path
+                    d="M2.46 6.33c-.269 0-.489.194-.5.441L1.435 18.19a.436.436 0 00.131.332.52.52 0 00.348.149h12.151c.276 0 .501-.207.501-.462l-.525-11.436c-.011-.248-.23-.442-.5-.442H2.46zM14.448 20l-12.974-.001a1.591 1.591 0 01-1.064-.462 1.357 1.357 0 01-.408-1.03L.56 6.372C.595 5.602 1.277 5 2.11 5h11.78c.835 0 1.516.602 1.551 1.372l.56 12.197c0 .789-.697 1.431-1.553 1.431z"
+                  ></path>
+                </g>
+              </svg>
+              (0)
+            </a>
           </div>
-          <button class="heart-button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="18"
-              viewBox="0 0 20 18"
-              aria-hidden="true"
-              class="Icon__StyledSVG-lm07h6-0 cOQBZK"
-            >
-              <path
-                d="M16.84 8.417L10 15.204 3.16 8.417A3.67 3.67 0 012 5.739C2 3.677 3.71 2 5.815 2a3.82 3.82 0 012.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0114.186 2C16.289 2 18 3.677 18 5.739a3.673 3.673 0 01-1.16 2.678M9.986 18l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 001.78-4.126C20 2.569 17.398 0 14.187 0A5.829 5.829 0 0010 1.762 5.827 5.827 0 005.815 0C2.604 0 0 2.569 0 5.739a5.68 5.68 0 001.782 4.126"
-                fill="currentColor"
-                fill-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-          <a href="" class="shop-link">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="20"
-              viewBox="0 0 16 20"
-              aria-hidden="true"
-              class="Icon__StyledSVG-lm07h6-0 uCSzk MainBarstyles__ActionIcon-sc-1cg7sjw-16 kfAPxF"
-            >
-              <g fill="currentColor" fill-rule="evenodd">
-                <path
-                  d="M4 3.512v5.804c0 .377.349.684.779.684.43 0 .779-.307.779-.684V3.512C5.558 2.33 6.653 1.368 8 1.368c1.347 0 2.442.962 2.442 2.144v5.804c0 .377.35.684.78.684.43 0 .778-.307.778-.684V3.512C12 1.575 10.206 0 8 0S4 1.575 4 3.512z"
-                ></path>
-                <path
-                  d="M2.46 6.33c-.269 0-.489.194-.5.441L1.435 18.19a.436.436 0 00.131.332.52.52 0 00.348.149h12.151c.276 0 .501-.207.501-.462l-.525-11.436c-.011-.248-.23-.442-.5-.442H2.46zM14.448 20l-12.974-.001a1.591 1.591 0 01-1.064-.462 1.357 1.357 0 01-.408-1.03L.56 6.372C.595 5.602 1.277 5 2.11 5h11.78c.835 0 1.516.602 1.551 1.372l.56 12.197c0 .789-.697 1.431-1.553 1.431z"
-                ></path>
-              </g>
-            </svg>
-            (0)
-          </a>
-        </div>
-      </nav>
+        </nav>
       </div>
     </header>
     <!--Maurilio-->
@@ -236,7 +253,6 @@
           <div class="fsmc-container">
             <div class="fsmc-text-wrapper">
               <div class="fsmc-text-container">
-                
                 <img
                   src="assets/first-section/main-cover/main-cover-star-wars-logo.png"
                   alt="Logo della celebre saga di Star Wars"
@@ -353,617 +369,618 @@
 
       <!--Pietro Section: Consigliati per te-->
       <div class="section-consigliati-per-te">
-      <section class="cpt-main-container">
-        <div class="cpt-title">
-          <h2>Consigliati per te</h2>
-        </div>
-        <div class="wrapper">
-          <div class="cpt-card-container">
-            <div class="carousel">
-              <div class="content">
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/defender.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Land Rover Classic Defender 90</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">239,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/tempio-d'oro.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Il Tempio dell'idolo d'oro</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">149,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/wall-e.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>EVE E WALL-E</h3>
-                      </div>
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-star">
+        <section class="cpt-main-container">
+          <div class="cpt-title">
+            <h2>Consigliati per te</h2>
+          </div>
+          <div class="wrapper">
+            <div class="cpt-card-container">
+              <div class="carousel">
+                <div class="content">
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
                           <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
+                            src="assets/section-consigliati/icons8-favorite-16.png"
                             alt=""
                           />
                         </div>
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">14,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/granburrone.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>IL SIGNORE DEGLI ANELLI: GRAN BURRONE</h3>
-                      </div>
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-star">
+                        <div class="cpt-image">
                           <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/defender.jpeg"
                             alt=""
                           />
                         </div>
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">499,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/treno-disney.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Treno delle celebrazioni Disney</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">39,99€</span>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Land Rover Classic Defender 90</h3>
                         </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/destroyer.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Super Star Destroyer™ Executor</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">69,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Prenota
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/crudelia.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Crudelia e Malefica</h3>
-                      </div>
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-star">
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">19,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/lama.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Lama</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">9,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/pappagallo.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Pappagallo esotico</h3>
-                      </div>
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-star">
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">24,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/zombie.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Zombie</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">9,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/ford-gt.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>Ford GT 2022</h3>
-                      </div>
-                      <div class="cpt-other-details">
                         <br />
-                        <div class="cpt-details-star">
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star.svg"
-                            alt=""
-                          />
-                          <img
-                            class="cpt-star"
-                            src="assets/section-consigliati/star-vuota.svg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">119,99€</span>
-                        </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">239,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="cpt-singlecard-container">
-                  <div class="cpt-card">
-                    <div class="cpt-image-container">
-                      <div class="cpt-image-svg">
-                        <img
-                          src="assets/section-consigliati/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/tempio-d'oro.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
                       </div>
-                      <div class="cpt-image">
-                        <img
-                          class="cpt-card-image"
-                          src="assets/section-consigliati/bts.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="cpt-image-span">
-                        <span class="cpt-novità">Novità</span>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Il Tempio dell'idolo d'oro</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">149,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="cpt-details-container">
-                      <div class="cpt-details-name">
-                        <h3>BTS Dynamite</h3>
-                      </div>
-                      <br />
-                      <br />
-                      <div class="cpt-other-details">
-                        <div class="cpt-details-price">
-                          <span class="cpt-price">99,99€</span>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
                         </div>
-                        <div class="cpt-details-button">
-                          <button type="submit" class="cpt-shop-button">
-                            Aggiungi al carrello
-                          </button>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/wall-e.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>EVE E WALL-E</h3>
+                        </div>
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-star">
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">14,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/granburrone.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>IL SIGNORE DEGLI ANELLI: GRAN BURRONE</h3>
+                        </div>
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-star">
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">499,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/treno-disney.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Treno delle celebrazioni Disney</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">39,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/destroyer.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Super Star Destroyer™ Executor</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">69,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Prenota
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/crudelia.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Crudelia e Malefica</h3>
+                        </div>
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-star">
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">19,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/lama.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Lama</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">9,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/pappagallo.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Pappagallo esotico</h3>
+                        </div>
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-star">
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">24,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/zombie.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Zombie</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">9,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/ford-gt.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>Ford GT 2022</h3>
+                        </div>
+                        <div class="cpt-other-details">
+                          <br />
+                          <div class="cpt-details-star">
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star.svg"
+                              alt=""
+                            />
+                            <img
+                              class="cpt-star"
+                              src="assets/section-consigliati/star-vuota.svg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">119,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cpt-singlecard-container">
+                    <div class="cpt-card">
+                      <div class="cpt-image-container">
+                        <div class="cpt-image-svg">
+                          <img
+                            src="assets/section-consigliati/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image">
+                          <img
+                            class="cpt-card-image"
+                            src="assets/section-consigliati/bts.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cpt-image-span">
+                          <span class="cpt-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="cpt-details-container">
+                        <div class="cpt-details-name">
+                          <h3>BTS Dynamite</h3>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="cpt-other-details">
+                          <div class="cpt-details-price">
+                            <span class="cpt-price">99,99€</span>
+                          </div>
+                          <div class="cpt-details-button">
+                            <button type="submit" class="cpt-shop-button">
+                              Aggiungi al carrello
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -971,36 +988,35 @@
                 </div>
               </div>
             </div>
+            <button class="prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path
+                  d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
+                />
+              </svg>
+            </button>
+            <button class="next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path
+                  d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
+                />
+              </svg>
+            </button>
           </div>
-          <button class="prev">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path fill="none" d="M0 0h24v24H0V0z" />
-              <path
-                d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
-              />
-            </svg>
-          </button>
-          <button class="next">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path fill="none" d="M0 0h24v24H0V0z" />
-              <path
-                d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
-              />
-            </svg>
-          </button>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
       <!--Pietro-->
 
       <!--Andrea Section: Nuovi arrivi-->
@@ -1132,7 +1148,6 @@
                   <div class="sac-t-button">
                     Scopri di più <i class="button-arrow-right"></i>
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -1143,631 +1158,635 @@
 
       <!--Pietro Section: Set in evidenza-->
       <div class="section-set-in-evidenza">
-      <section class="sie-main-container">
-        <div class="sie-title">
-          <h2>Set in evidenza</h2>
-        </div>
-        <div class="wrapper2">
-          <div class="sie-card-container">
-            <div class="carousel2">
-              <div class="content2">
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+        <section class="sie-main-container">
+          <div class="sie-title">
+            <h2>Set in evidenza</h2>
+          </div>
+          <div class="wrapper2">
+            <div class="sie-card-container">
+              <div class="carousel2">
+                <div class="content2">
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/casco-star.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Novità</span>
+                        </div>
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/casco-star.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Il casco di Star-Lord</h3>
+                        <br />
+                        <div class="sie-details-price">
+                          <span class="sie-price">79,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Il casco di Star-Lord</h3>
-                      <br />
-                      <div class="sie-details-price">
-                        <span class="sie-price">79,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/tempio-d'oro.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Novità</span>
+                        </div>
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/tempio-d'oro.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">
+                          Il tempio dell'idolo d'oro
+                        </h3>
+                        <br />
+                        <div class="sie-details-price">
+                          <span class="sie-price">149,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Novità</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">
-                        Il tempio dell'idolo d'oro
-                      </h3>
-                      <br />
-                      <div class="sie-details-price">
-                        <span class="sie-price">149,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/bouquet.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <!-- <div class="sie-image-span">
-                        <span class="sie-novità">Novità</span>
-                      </div> -->
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Bouquet fiori selvatici</h3>
-                      <br />
-                      <div class="sie-details-price">
-                        <span class="sie-price">59,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/baita.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Esclusivo</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Baita</h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">179,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/titanic.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Esclusivo</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Titanic LEGO</h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">679,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/bouquet.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <!-- <div class="sie-image-span">
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/bouquet.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <!-- <div class="sie-image-span">
                         <span class="sie-novità">Novità</span>
                       </div> -->
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Hokusai - La Grande Onda</h3>
-                      <br />
-                      <div class="sie-details-price">
-                        <span class="sie-price">99,99€</span>
                       </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">
+                          Bouquet fiori selvatici
+                        </h3>
+                        <br />
+                        <div class="sie-details-price">
+                          <span class="sie-price">59,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/baita.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Esclusivo</span>
+                        </div>
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/casetta.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Baita</h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">179,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <!-- <div class="sie-image-span">
-                        <span class="sie-novità">Esclusivo</span>
-                      </div> -->
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Casetta per uccelli</h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">29,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/titanic.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Esclusivo</span>
+                        </div>
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/tank.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Titanic LEGO</h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">679,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <!-- <div class="sie-image-span">
-                        <span class="sie-novità">Esclusivo</span>
-                      </div> -->
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">
-                        Fighter Tank della Repubblica
-                      </h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star-vuota.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">44,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/tour-eiffel.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Esclusivo</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Tour Eiffel</h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star-vuota.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">629,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/castello-magico.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-image-span">
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/bouquet.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <!-- <div class="sie-image-span">
                         <span class="sie-novità">Novità</span>
+                      </div> -->
                       </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Castello magico 3 in 1</h3>
-                      <br />
-                      <div class="sie-details-price">
-                        <span class="sie-price">99,99€</span>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">
+                          Hokusai - La Grande Onda
+                        </h3>
+                        <br />
+                        <div class="sie-details-price">
+                          <span class="sie-price">99,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/casetta.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <!-- <div class="sie-image-span">
+                        <span class="sie-novità">Esclusivo</span>
+                      </div> -->
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/nasa.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Casetta per uccelli</h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">29,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Difficile da trovare</span>
-                      </div>
-                    </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">
-                        NASA Space Shuttle Discovery
-                      </h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price">199,99€</span>
-                      </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
                     </div>
                   </div>
-                </div>
 
-                <div class="sie-singlecard-container">
-                  <div class="sie-card">
-                    <div class="sie-image-container">
-                      <div class="sie-image-svg">
-                        <img
-                          src="assets/section-set in evidenza/icons8-favorite-16.png"
-                          alt=""
-                        />
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/tank.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <!-- <div class="sie-image-span">
+                        <span class="sie-novità">Esclusivo</span>
+                      </div> -->
                       </div>
-                      <div class="sie-image">
-                        <img
-                          class="sie-card-image"
-                          src="assets/section-set in evidenza/black-panther.jpeg"
-                          alt=""
-                        />
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">
+                          Fighter Tank della Repubblica
+                        </h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star-vuota.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">44,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <div class="sie-image-span">
-                        <span class="sie-novità">Difficle da trovare</span>
-                      </div>
-                      <span class="sie-sconto">-20%</span>
                     </div>
-                    <div class="sie-details-container">
-                      <h3 class="sie-details-name">Black Panther</h3>
-                      <div class="sie-details-star">
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/star.svg"
-                          alt=""
-                        />
-                        <img
-                          class="sie-star"
-                          src="assets/section-set in evidenza/mid-star.svg"
-                          alt=""
-                        />
+                  </div>
+
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/tour-eiffel.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Esclusivo</span>
+                        </div>
                       </div>
-                      <div class="sie-details-price">
-                        <span class="sie-price-panther">349,99€</span>
-                        <span class="sie-price-sconto">279,99€</span>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Tour Eiffel</h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star-vuota.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">629,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
                       </div>
-                      <button type="submit" class="sie-shop-button">
-                        Aggiungi al carrello
-                      </button>
+                    </div>
+                  </div>
+
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/castello-magico.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Novità</span>
+                        </div>
+                      </div>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Castello magico 3 in 1</h3>
+                        <br />
+                        <div class="sie-details-price">
+                          <span class="sie-price">99,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/nasa.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Difficile da trovare</span>
+                        </div>
+                      </div>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">
+                          NASA Space Shuttle Discovery
+                        </h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price">199,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sie-singlecard-container">
+                    <div class="sie-card">
+                      <div class="sie-image-container">
+                        <div class="sie-image-svg">
+                          <img
+                            src="assets/section-set in evidenza/icons8-favorite-16.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image">
+                          <img
+                            class="sie-card-image"
+                            src="assets/section-set in evidenza/black-panther.jpeg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-image-span">
+                          <span class="sie-novità">Difficle da trovare</span>
+                        </div>
+                        <span class="sie-sconto">-20%</span>
+                      </div>
+                      <div class="sie-details-container">
+                        <h3 class="sie-details-name">Black Panther</h3>
+                        <div class="sie-details-star">
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/star.svg"
+                            alt=""
+                          />
+                          <img
+                            class="sie-star"
+                            src="assets/section-set in evidenza/mid-star.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="sie-details-price">
+                          <span class="sie-price-panther">349,99€</span>
+                          <span class="sie-price-sconto">279,99€</span>
+                        </div>
+                        <button type="submit" class="sie-shop-button">
+                          Aggiungi al carrello
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <button class="prev2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path
+                  d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
+                />
+              </svg>
+            </button>
+            <button class="next2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path
+                  d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
+                />
+              </svg>
+            </button>
           </div>
-          <button class="prev2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path fill="none" d="M0 0h24v24H0V0z" />
-              <path
-                d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
-              />
-            </svg>
-          </button>
-          <button class="next2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path fill="none" d="M0 0h24v24H0V0z" />
-              <path
-                d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
-              />
-            </svg>
-          </button>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
       <!--Pietro-->
 
       <!--Andrea Section: Set preferiti dai fan-->
@@ -1793,11 +1812,10 @@
                 </div>
               </div>
               <div class="sff-card-text-container" id="sff-card-left">
-                <h3 class="sff-card-text-topic">
-                  Vai oltre
-                </h3>
+                <h3 class="sff-card-text-topic">Vai oltre</h3>
                 <p class="sff-card-text-argument">
-                  Stimola il tuo senso dell'avventura con il nuovo set Land Rover Classic Defender 90.
+                  Stimola il tuo senso dell'avventura con il nuovo set Land
+                  Rover Classic Defender 90.
                 </p>
                 <div class="sff-card-text-button">
                   <span class="sff-card-tb-span">Compra ora</span>
@@ -1821,11 +1839,10 @@
                 </div>
               </div>
               <div class="sff-card-text-container" id="sff-card-right">
-                <h3 class="sff-card-text-topic">
-                  Ricrea un capolavoro
-                </h3>
+                <h3 class="sff-card-text-topic">Ricrea un capolavoro</h3>
                 <p class="sff-card-text-argument">
-                  Mostra il tuo lato artistico con il nuovo set LEGO Art Hokusai - La Grande Onda.
+                  Mostra il tuo lato artistico con il nuovo set LEGO Art Hokusai
+                  - La Grande Onda.
                 </p>
                 <div class="sff-card-text-button">
                   <span class="sff-card-tb-span">Compra ora</span>
@@ -1867,7 +1884,6 @@
                   <div class="sac-t-button">
                     Compra ora <i class="button-arrow-right"></i>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -1987,7 +2003,9 @@
         <div>
           <div class="footerUp">
             <div class="logoAndChangeRegion">
-              <div class="logo"><img src="assets/lego-logo-76.png" alt="" /></div>
+              <div class="logo">
+                <img src="assets/lego-logo-76.png" alt="" />
+              </div>
               <div class="region">
                 <button><i class="fa-solid fa-location-dot"></i>Italia</button>
               </div>
@@ -1999,7 +2017,9 @@
                 </li>
                 <li>
                   <a href="" class="ancorTrovaUnNegozio"
-                    ><span class="trovaUnNegozio"> Trova un negozio LEGO</span></a
+                    ><span class="trovaUnNegozio">
+                      Trova un negozio LEGO</span
+                    ></a
                   >
                 </li>
               </ul>
@@ -2205,15 +2225,18 @@
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
-                    ><a href="">Eesti / Eesti</a><a href="">Estonia / English</a>
+                    ><a href="">Eesti / Eesti</a
+                    ><a href="">Estonia / English</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
-                    ><a href="">España / Español</a><a href="">Spain / English</a>
+                    ><a href="">España / Español</a
+                    ><a href="">Spain / English</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
-                    ><a href="">Finland / English</a><a href="">Suomi / Suomi</a>
+                    ><a href="">Finland / English</a
+                    ><a href="">Suomi / Suomi</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
@@ -2278,7 +2301,8 @@
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
-                    ><a href="">Polska / Polski</a><a href="">Poland / English</a>
+                    ><a href="">Polska / Polski</a
+                    ><a href="">Poland / English</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-location-dot"></i
@@ -2396,5 +2420,6 @@
     <script src="JS/section-cpt.js"></script>
     <script src="JS/section-sie.js"></script>
     <script src="JS/footer.js"></script>
+    <script src="JS/searchButton.js"></script>
   </body>
 </html>
