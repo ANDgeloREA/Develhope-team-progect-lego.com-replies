@@ -69,6 +69,7 @@ SOPRA
 }
 .linkFooter {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .linkFooter ul {
@@ -169,6 +170,7 @@ SOTTO
 }
 .policyLink {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0px 0px;
 }
