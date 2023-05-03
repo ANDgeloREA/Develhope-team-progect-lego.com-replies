@@ -231,7 +231,7 @@
   -webkit-box-align: center;
 }
 
-.nav-bottom .nav-bot-right .nav-bot-searchbar button{
+.nav-bottom .nav-bot-right .nav-bot-searchbar .btn-search {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,6 +270,8 @@
     gap: 0.3rem;
 }
 
+/* SEARCH BAR */
+
 .searchbar-onclick{
   display: none;
   position: absolute;
@@ -290,9 +292,10 @@
 
 .inputSearchbar{
   height: 4vh;
-  border: 0px white;
+  border: solid 1px white;
   margin-left: 10px;
   margin-right: 10px;
+  outline: none;
 }
 .closeSearch{
   background-color: transparent;
