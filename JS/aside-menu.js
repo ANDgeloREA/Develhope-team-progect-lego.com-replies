@@ -1,31 +1,17 @@
 const $triggerNav = document.querySelectorAll(".trigger-nav");
 const $contentNav = document.querySelectorAll(".content-nav");
-
 const menuAside = document.querySelector('.menu-aside-container');
 const closeMenuAside = document.querySelector('.nav-close-modal')
+const blockBody = document.querySelector(".menu-aside-body-none")
+const $body = document.querySelector("body")
 
-
-function navOpenModal() {
-    
-   
-
-   
-      
-      
-}
 
 function navCloseModal(){
-    menuAside.className= 'menu-aside-container'
-    
+    menuAside.className = 'menu-aside-container'
+    blockBody.className = "menu-aside-body-none"
 }
 
-//$triggerNav.onclick = navOpenModal;
 closeMenuAside.onclick = navCloseModal;
-
-
-
-//Switch-Menù
-
 
 
 $triggerNav.forEach($el => {
@@ -37,5 +23,6 @@ $triggerNav.forEach($el => {
      
       document.getElementById(id).classList.add("visible");
       menuAside.className = 'menu-aside-container-block'
+      blockBody.className = "menu-aside-body"
     });
   });
