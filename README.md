@@ -15,9 +15,10 @@ Il lavoro è iniziato analizzando la pagina da riprodurre per stabilire la strut
 - Main-cover
 - Section: Consigliati per te
 - Section: Nuovi arrivi
+- Section: Banner publicitario 1
 - Section: Set in evidenza
 - Section: Set preferiti dai fan
-- Section: Offerte e promozioni
+- Section: Banner publicitario 2
 - Section: Leggi tutto
 
 #### Footer
@@ -26,13 +27,11 @@ Una volta stabilite le varie section e le loro affinità di struttura, le sectio
 
 - Header
 
-- Main-cover
+- Section: "Main-cover" / "Banner publicitari"
 
 - Section: "Consigliati per te" / "Set in evidenza"
 
-- Section: "Nuovi arrivi" / "Leggi tutto"
-
-- Section: "Set preferiti dai fan" / "Offerte e promozioni"
+- Section: "Set preferiti dai fan" / "Nuovi arrivi" / "Leggi tutto"
 
 - Footer
 
@@ -47,13 +46,10 @@ Per questo progetto sarà necessario implementare le conoscenze acquisite nel mo
 ## Riepilogo assegnazione delle section
 
 -Andrea (team lead):
-section Main-cover, "Nuovi arrivi" / "Leggi tutto"; 
+section "Main-cover" / "Banner publicitari", "Set preferiti dai fan" / "Nuovi arrivi" / "Leggi tutto"; 
 
 -Davide:
 section Footer;
-
--Francesco: 
-section "Set preferiti dai fan" / "Offerte e promozioni"; 
 
 -Maurilio: 
 section Header; 
@@ -68,8 +64,6 @@ section "Consigliati per te" / "Set in evidenza".
 Andrea A. D'Onorio De Meo
 
 Davide Catanzaro
-
-Francesco Marino
 
 Maurilio Farina
 
