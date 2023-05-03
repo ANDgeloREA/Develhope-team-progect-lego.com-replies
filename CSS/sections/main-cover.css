@@ -119,3 +119,31 @@ SECTION PRINCIPALE - linkbar
     list-style: none;
     text-align: center;
 }
+
+@media screen and (max-width: 391px) {
+    .fsmc-container{
+        flex-wrap: wrap;
+    }
+
+    .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-text-wrapper {
+        padding: 50px;
+    }
+
+    .first-section-main-cover .fsmc-wrapper .fsmc-container .fsmc-img-wrapper {
+        padding: 0px 50px 20px 50px;
+    }
+
+    .fslb-link-wrapper {
+        width: 70px;
+    }
+
+    .first-section-linkbar .fslb-linkbar-wrapper .fslb-linkbar-container {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+}

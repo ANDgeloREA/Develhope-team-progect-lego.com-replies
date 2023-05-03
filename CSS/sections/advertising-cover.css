@@ -203,3 +203,18 @@ ADVERTISING COVER - Text
 .section-advertising-cover2 .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container .sac-t-button-container .sac-t-button:hover .button-arrow-right {
     border-color: solid var(--text-color);
 }
+
+@media screen and (max-width: 820px) {
+   
+    .section-advertising-cover .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container {
+        display: none;
+    } 
+
+    .section-advertising-cover2 .sac-wrapper .sac-container .sac-text-wrapper .sac-text-container {
+        display: none;
+    }
+}
+
+/* @media screen and (max-width: 390px) {
+    
+} */

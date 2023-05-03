@@ -189,3 +189,15 @@
     margin: auto;
     box-sizing: border-box;
   }
+
+@media screen and (max-width: 391px) {
+    .cpt-card {
+        width: 250px;
+        padding-right: 1rem;
+    }
+
+    .cpt-main-container {
+        padding: 20px;
+    }
+
+}

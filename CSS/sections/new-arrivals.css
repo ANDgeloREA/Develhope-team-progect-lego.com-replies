@@ -73,3 +73,55 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+@media screen and (max-width: 820px) {
+
+
+.section-new-arrivals .sna-wrapper {
+    padding: 30px;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container {
+    width: 300px;
+}
+
+.sna-card-wrapper::-webkit-scrollbar {
+    height: 5px;
+    width: 90%;
+  }
+  
+  .sna-card-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  .sna-card-wrapper::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  .sna-card-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #2b2b2b; 
+  }
+
+  .sna-title {
+    font-weight: 400;
+  }
+
+
+}
+
+@media screen and (max-width: 391px) {
+    .section-new-arrivals .sna-wrapper .sna-card-wrapper .sna-card-container .sna-card-img-container {
+        width: 250px;
+    }
+
+    .section-new-arrivals .sna-wrapper {
+        padding: 20px ;
+    }
+
+}

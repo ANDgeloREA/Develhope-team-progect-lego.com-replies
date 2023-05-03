@@ -94,3 +94,36 @@
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 820px) {
+  .sff-wrapper {
+    padding: 30px;
+  }
+
+  #sff-card-left .sff-card-text-argument {
+    display: none;
+  }
+
+  #sff-card-right .sff-card-text-argument {
+    display: none;
+  }
+
+  #sff-card-right {
+    color: white;
+  }
+
+  .sff-title {
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .sff-wrapper {
+    padding: 20px;
+  }
+
+  .sff-card-wrapper {
+    flex-wrap: wrap;
+  }
+
+}

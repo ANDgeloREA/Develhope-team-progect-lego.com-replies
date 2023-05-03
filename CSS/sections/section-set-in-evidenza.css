@@ -202,3 +202,19 @@
   margin: auto;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 820px) {
+  .sie-main-container {
+    padding: 30px;
+}
+}
+
+@media screen and (max-width: 391px) {
+  .sie-main-container {
+    padding: 20px;
+}
+
+  .sie-card {
+  width: 250px;
+}
+}
