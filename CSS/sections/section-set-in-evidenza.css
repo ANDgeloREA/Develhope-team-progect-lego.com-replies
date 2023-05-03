@@ -1,0 +1,220 @@
+.section-set-in-evidenza {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sie-main-container {
+    padding: 30px 90px 30px 90px;
+}
+
+.sie-title > h2 {
+    margin: 0px 0px 0.75rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.sie-card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.sie-card-container::-webkit-scrollbar {
+  height: 5px;
+  width: 80%;
+}
+
+.sie-card-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.sie-card-container::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+.sie-card-container::-webkit-scrollbar-thumb:hover {
+  background: #2b2b2b; 
+}
+
+.sie-card {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 1.5rem;
+  width: 300px;
+  height: 450px;
+}
+
+.sie-image-container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(224, 224, 224);
+  width: 100%;
+  height: 300px;
+}
+
+.sie-card-image {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  margin-left: 0.625rem;
+}
+
+.sie-card-image:hover {
+  transform: scale(1.1);
+}
+
+.sie-image-span {
+  margin-left: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.sie-novità {
+  position: absolute;
+  bottom: 10px;
+  padding: 0.19rem 0.625rem;
+  background: rgb(255, 207, 0);
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+}
+
+.sie-sconto {
+  position: absolute;
+  bottom: 10px;
+  left: 8.5rem;
+  padding: 0.19rem 0.19rem;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.sie-image-svg {
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
+}
+
+.sie-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sie-details-name {
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  font-weight: 600;
+  margin: auto;
+  margin-left: 0;
+}
+
+.sie-shop-button {
+  width: 100%;
+  padding: 0.9375rem;
+  border-style: solid;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.1875rem;
+  background-color: rgb(253, 128, 36);
+  border-color: rgb(253, 128, 36);
+  color: rgb(0, 0, 0); 
+}
+
+.sie-shop-button:hover {
+  background-color: white;
+}
+
+.sie-details-price {
+  margin-bottom: 0.3rem;
+}
+
+.sie-details-price > .sie-price {
+  font-weight: bold;
+}
+
+.sie-price-panther {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.sie-price-sconto {
+  font-weight: 600;
+  color: red;
+}
+
+.sie-details-star > .sie-star {
+  width: 15px;
+  height: 15px;
+}
+
+.sie-star {
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.wrapper2 {
+  width: 100%;
+  position: relative;
+}
+
+.carousel2 {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+ 
+.prev2,
+.next2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.prev2 {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+.next2 {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.content2 {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 820px) {
+  .sie-main-container {
+    padding: 30px;
+}
+}
+
+@media screen and (max-width: 391px) {
+  .sie-main-container {
+    padding: 20px;
+}
+
+  .sie-card {
+  width: 250px;
+}
+}
