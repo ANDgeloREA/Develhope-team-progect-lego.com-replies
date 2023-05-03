@@ -594,3 +594,56 @@ LENGUAGE CHOISE
   cursor: pointer;
   font-weight: bold;
 }
+
+.second-linkFooter {
+  display: none;
+}
+
+@media screen and (max-width: 391px) {
+  .footerUp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .logoAndChangeRegion {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .logoAndChangeRegion .logo {
+    margin: 0;
+  }
+
+  .region {
+    padding-left: 2rem;
+  }
+
+  .footerCenter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .linkFooter {
+    display: none;
+  }
+
+  .second-linkFooter {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .button-second-link-footer {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: white;
+    background-color: rgb(32, 29, 72);
+    font-weight: bold;
+  }
+}
