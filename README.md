@@ -37,12 +37,6 @@ Una volta stabilite le varie section e le loro affinità di struttura, le sectio
 
 Ognuno dovrà svolgere le proprie tasks creando un branch separato per ogni section a partire dal main, lavorando su un file di base unico per tutti e sviluppando ogni section su un branch assegnato alla section di riferimento.
 
-## Risultato atteso
-
-Per questo progetto sarà necessario implementare le conoscenze acquisite nel modulo JavaScript e implementando le librerie princilali (BOOTSTRAP) che ci porteranno alla realizzazione della pagina.
-
-
-
 ## Riepilogo assegnazione delle section
 
 -Andrea (team lead):
